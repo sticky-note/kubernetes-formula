@@ -54,6 +54,9 @@ Arch:
       - tar
       - gzip
       - which
+  server:
+    pkg:
+      group_name: kubernetes-control-plane
   linux:
     altpriority: 0
 
